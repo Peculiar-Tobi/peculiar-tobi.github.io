@@ -1,0 +1,101 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+.rightheader h1 {
+    color: #DA0090;
+    margin:0;
+    padding-top: 4rem;
+    
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    padding-top: 1rem;
+}
+header {
+    display: flex;
+    justify-content: center;
+    
+}
+.leftheader {
+    padding-right: 1rem;
+    margin:0;
+}
+.rightheader p {
+    margin:0;
+    font-size: .7rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1.5rem;
+    border-top: 1px solid #DA0090; 
+    border-bottom: 1px solid #DA0090; 
+    justify-content: center;
+    padding: .5rem;
+    font-size: .8rem;
+    
+    
+}
+nav a {
+    color: #73352E;
+    
+}
+a {
+    color: #DA0090;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+.floatleft {
+    float:left;
+    margin: 1rem;
+    border-radius: 1rem;
+
+}
+article:after {
+    content: "";
+    display:table;
+    clear:both;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    border-top: 1px solid #a61f11;
+    padding: 0;
+    margin-top: 2rem;
+}
+footer p {
+    border-top: 1px solid #DA0090;
+    padding-top: 1rem;
+    margin-top:.3rem;
+}
+footer ul {
+    display: flex;
+    list-style-type: none;
+    gap: .5rem;
+    justify-content: center;
+}
